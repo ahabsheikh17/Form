@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+  </head>
+  <body  bgcolor="#ee82ee">
+    <h1>Form</h1>
+
+    <h2>Create Your Account</h2>
+
+    <form action="">
+      <label> First Name :</label>
+
+      <input
+        type="text"
+        name="F_Name"
+        placeholder="Enter Your First Name"
+        required
+      />
+      <br />
+      <br />
+
+      <label> Last Name :</label>
+
+      <input
+        type="text"
+        name="L_Name"
+        placeholder="Enter Your Last Name"
+        required
+      />
+      <br />
+      <br />
+
+      <label> Father Name :</label>
+
+      <input
+        type="text"
+        name="Father Name"
+        placeholder="Enter Your Father Name"
+        required
+      />
+
+      <br />
+      <br />
+
+      <label> Email :</label>
+
+      <input
+        type="Email"
+        name="Email"
+        placeholder="Enter Your Email"
+        required
+      />
+      <br />
+      <br />
+
+      <label> Age :</label>
+
+      <input type="date" name="Age" placeholder="Enter Your Age" required />
+      <br />
+      <br />
+
+      <label> Contact No :</label>
+
+      <input
+        type="number"
+        name="Contact No"
+        placeholder="0300-1234567"
+        required
+      />
+      <br />
+      <br />
+
+      <label> CNIC :</label>
+
+      <input type="number" name="CNIC" placeholder="12345-1234567-1" required />
+      <br />
+      <br />
+
+      <label for="gender"> Account Type :</label>
+      <select name="Facebook" id="acc_type">
+        <option value="">Select Any One</option>
+        <option value="fbpage">FB Page</option>
+        <option value="fbaccount">FB Account</option>
+        <option value="fbgroup">FB Group</option>
+        <option value="fb_add_manager">FB Add Manager</option>
+        <option value="fb_bussiness_suit">FB Bussiness Suit</option>
+        <option value="fbsetting">FB Setting</option>
+      </select>
+
+      <br />
+      <br />
+
+      <label for="Skills"><h3>Skills:</h3></label><br />
+      <label>HTML5</label>
+      <input type="checkbox" name="Skills" id="HTML5" /><br />
+      <label>CSS3</label>
+      <input type="checkbox" name="Skills" id="CSS3" /><br />
+      <label>Microsoft Office</label>
+      <input type="checkbox" name="Skills" id="Microsoft Office" /><br />
+      <label>Adobe Photoshop</label>
+      <input type="checkbox" name="Skills" id="Adobe Photoshop" /><br />
+      <label>PHP</label>
+      <input type="checkbox" name="Skills" id="PHP" /><br />
+      <label>DBMS</label>
+      <input type="checkbox" name="Skills" id="DBMS" /><br />
+      <label>SEO</label>
+      <input type="checkbox" name="Skills" id="SEO" /><br />
+      <label>Java Script</label>
+      <input type="checkbox" name="Skills" id="Java Script" /><br />
+      <br />
+      <br />
+
+      <label><h3>Gender:</h3></label><br />
+      <label for="male">Male:</label>
+      <input type="radio" name="gender" id="Male" value="Male" /><br />
+
+      <label for="Female">Female:</label>
+      <input type="radio" name="gender" id="Female" value="Female" /><br />
+
+      <label for="Other">Other:</label>
+      <input type="radio" name="gender" id="Other" value="Other" /><br />
+
+      <br />
+      <br />
+
+      <label for=""><h3>Message:</h3></label><br />
+      <textarea name="msg" id="" cols="20" rows="10"></textarea>
+      <br />
+      <br />
+
+      <input type="submit" value="submit" name="b1" />
+      <input type="reset" value="reset" name="b2" />
+    </form>
+  </body>
+</html>
